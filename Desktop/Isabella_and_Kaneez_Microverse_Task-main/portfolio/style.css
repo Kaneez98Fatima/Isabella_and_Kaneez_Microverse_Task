@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.topnav{
+    background-color: brown;
+    height: 70px;
+}
+.topnav a{
+    float: right;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+h6{
+    color: brown;
+    text-align: center; 
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
