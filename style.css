@@ -43,3 +43,45 @@ h6{
     content: "";
     clear: both;
     display: table;
+  }
+
+  #contact{
+    background-color: #a5688b;
+    padding: 35px 0 20px 0;
+    width:100%;
+  }
+  .contact{
+    display: inline-block;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .contact li {
+    display: inline-block;
+    list-style: none;
+    float: left;
+    }
+  #contact p{
+    font-size: 1.7em;
+    font-weight: 700;
+  }
+  #contact li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    }
+  
+  #contact li a:visited{
+    color: white;
+  }
+  
+  @media only screen and (max-width: 815px) {
+      /* For mobile phones: */
+  
+}
+li a:visited {
+    color: white;
+  }
+  
