@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:grey;
 }
 .topnav{
     background-color: brown;
@@ -28,3 +28,18 @@ h6{
     padding-bottom: 30px;
     margin-top: 50px;
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
